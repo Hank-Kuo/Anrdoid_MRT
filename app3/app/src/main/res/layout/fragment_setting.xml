@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/userlimit"
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="183dp"
+        android:background="#ffcccc"
+        android:text="使用者規範"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="351dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="56dp"
+        android:background="#ddccff"
+        android:text="意見回饋"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="56dp"
+        android:background="#cce6ff"
+        android:text="logout"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/card_bag"
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_gravity="left|end"
+        android:layout_marginTop="183dp"
+        android:background="#c6ffb3"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Card bag"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/user_icon2" />
+
+        <TextView
+            android:id="@+id/usersub"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="T"
+            android:textColor="#f5a836"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="59dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/moneyicon" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.65"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="32dp" />
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

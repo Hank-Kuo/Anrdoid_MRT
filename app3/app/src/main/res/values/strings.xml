@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="result_text_default">Please focus camera to QR-code</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="scanner">Scanner</string>
+    <string name="card">Card</string>
+    <string name="setting">Setting</string>
+
+    <string name="seven">you get 70% OFF</string>
+    <string name="three">you get 30% OFF</string>
+    <string name="five">you get 50% OFF</string>
+    <string name="nime">you get 90% OFF</string>
+    <string name="howmuch">how much you get?</string>
+
+    <string-array name="RestaurantListFuDa">
+        <item>超越原味炭烤牛排</item>
+        <item>名廚鐵板燒</item>
+        <item>貓故事和食坊</item>
+        <item>新濟州</item>
+        <item>陶花園</item>
+    </string-array>
+
+    <string-array name="RestaurantListGongGuan">
+        <item>曼谷燒</item>
+        <item>大盛豬排專門店</item>
+        <item>So Free Pizza柴燒窯烤比薩</item>
+        <item>發現義大利麵</item>
+    </string-array>
+
+    <string-array name="RestaurantListGuoFuJiNianGuan">
+        <item>起家雞韓式炸雞</item>
+        <item>蒙古紅</item>
+        <item>禧太炭火燒肉店</item>
+    </string-array>
+
+    <string-array name="RestaurantListKeJiDaLou">
+        <item>芝鄉涼麵</item>
+        <item>阿清⾖漿</item>
+        <item>⼤和徐師傅燒餅⼤王</item>
+    </string-array>
+
+    <string-array name="RestaurantListXiMen">
+        <item>黃家乾麵</item>
+        <item>金園排骨</item>
+        <item>鳥良炸雞</item>
+        <item>繼光香香雞</item>
+        <item>宏益水晶餃</item>
+        <item>晨櫻廚房小火鍋</item>
+        <item>一級排骨</item>
+    </string-array>
+
+    <string-array name="RestaurantListXingTianGong">
+        <item>廣⽥麵館</item>
+        <item>味都拉麵</item>
+        <item>松江市場當歸⽺⾁湯</item>
+        <item>⼩六食堂 ⽇式料理</item>
+        <item>九隆港式燒臘</item>
+    </string-array>
+
+    <string-array name="RestaurantListZhongShan">
+        <item>麵屋一燈</item>
+        <item>川畝園麵食館</item>
+        <item>⾚峰⼩吃舖</item>
+        <item>⾚峰街無名排骨飯</item>
+    </string-array>
+
+    <!--1號商家資料kopitiam-->
+    <string name="r1">商家簡介：\n
+        \t\t\t\t【馬來西亞傳統料理】池先生咖哩屋充滿著濃厚的南洋氣息，場內寬敞，四周圍擺設著馬來西亞的特色景點圖片和裝飾，展現出老闆對祖國的熱愛。\n
+        \t\t\t\t\t獨有的池先生椰漿飯深受客戶喜愛。它是採用泰國香米，搭配特製三芭辣椒醬，辛辣的香味實在令人無法抵擋！\n
+        \t\t\t\t\t馬來西亞拉茶也是賣點之一。而且原料100%馬來西亞進口。外帶還有特別優惠吶！重點是價格非常平實，在台北是少有的。\n
+        \t\t\t\t\t地點位於台大校園後門出來附近。\n\n
+    </string>
+    <string name="r1_add">地址：台北市大安區復興南路二段385號</string>
+    <string name="r1_phone">電話：(02) 2738-9255</string>
+    <string name="r1_time">營業時間：11:30-21:00</string>
+    <string name="r1_btn1">YO</string>
+    <string name="r1_btn2">LO</string>
+
+    <!--2號商家資料mamak-->
+    <string name="r2">商家簡介：\n
+        \t\t\t\t台灣有好多異國料理，但道地的星馬料理在台灣並不多見。\n
+        \t\t\t\t東區捷運忠孝敦化站附近，來自馬來西亞正宗星馬料理Mamak檔在此坐落！\n
+        \t\t\t\t店內有馬來西亞皇室御用主廚第三代傳人坐鎮（對，很威），讓大家不用特地親飛馬來西亞，便能享受原汁原味的星馬料理！\n\n
+    </string>
+    <string name="r2_add">地址：台北市大安區敦化南路一段187巷72號1樓</string>
+    <string name="r2_phone">電話：(02) 2731-6086</string>
+    <string name="r2_time">營業時間：週日～週四 11:30-22:00\n  週五、週六 11:30-23:00</string>
+    <string name="r2_btn1">YO</string>
+    <string name="r2_btn2">LO</string>
+
+
+    <!--3號商家資料 今大滷肉飯-->
+    <string name="r3">商家簡介：\n
+        \t\t\t\t學區商圈內的美食就是強,畢竟主要客群是懂得精算C/P值的學生族群．\n
+        \t\t\t\t餐點價位,從平價的百餘元到近五百元的套餐皆有,...飲料,湯品,以及白飯,都是採用自助式的無限取用,...\n
+        \t\t\t\t比起坊間平價鐵板燒白飯還需另點的方式,顯然大器許多．\n\n
+    </string>
+    <string name="r3_add">地址：新北市新莊區建國一路3號</string>
+    <string name="r3_phone">電話：(02)-2904-3513</string>
+    <string name="r3_time">營業時間：11:20-14:30,17:00-22:00
+    </string>
+    <string name="r3_btn1">YO</string>
+    <string name="r3_btn2">LO</string>
+
+    <!--4號商家資料 翠薪越南餐廳-->
+    <string name="r4">商家簡介：\n
+        \t\t\t\t常去公館的人,應該對這家經營20~30年歷史超悠久的越南餐廳 不陌生吧?\n
+        \t\t\t\t口味道地,分店一開就有三家「翠林、翠薪、翠園」全部都是翠字輩的!!!\n
+        \t\t\t\t越皮炸春捲、雞絲涼拌、越南烤肉、香葉拉椰糕、越式生春捲等食物，品嚐起來都非常獨特、美味。\n\n
+    </string>
+    <string name="r4_add">地址：100台北市中正區羅斯福路四段24巷11號</string>
+    <string name="r4_phone">電話：(02) 2368 0254</string>
+    <string name="r4_time">營業時間：11:20–14:30；17:20–21:00（週三公休）</string>
+    <string name="r4_btn1">YO</string>
+    <string name="r4_btn2">LO</string>
+
+    <!--5號商家資料RU's coffee-->
+    <string name="r5">商家簡介：\n
+        \t\t\t\tR是儒，U是優\n
+        \t\t\t\t我們心中都有人，RU(Are you)是你，在這裡我們重視你們每一個人\n
+        \t\t\t\t藉由對咖啡的熱情，想傳遞人與人之間溫暖的關係，從微笑開始也可以感動陌生人。\n\n
+    </string>
+    <string name="r5_add">地址：台北市士林區德行東路128號</string>
+    <string name="r5_phone">電話：(02) 2832 2231</string>
+    <string name="r5_time">營業時間：9:00 - 18:00(每週二公休)</string>
+    <string name="r5_btn1">YO</string>
+    <string name="r5_btn2">LO</string>
+
+</resources>

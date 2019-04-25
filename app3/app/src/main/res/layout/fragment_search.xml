@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="720dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#344955">
+
+                <EditText
+                    android:id="@+id/introduction"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="270dp"
+                    android:background="@drawable/color_textbox"
+                    android:ems="40"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="簡介"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="#66b3ff"
+                    android:textColorHint="#232f34"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="458dp" />
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="410dp"
+                    android:background="@drawable/color_textbox"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="位置"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#66b3ff"
+                    android:textColorHint="#232f34"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="343dp" />
+
+                <EditText
+                    android:id="@+id/storename"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/color_textbox"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="店名"
+                    android:padding="10dp"
+                    android:textColor="#66b3ff"
+                    android:textColorHint="#232f34"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="230dp" />
+
+                <EditText
+                    android:id="@+id/mrtstation"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="480dp"
+                    android:background="@drawable/color_textbox"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="捷運站"
+                    android:inputType="textPersonName"
+                    android:isScrollContainer="false"
+                    android:padding="10dp"
+                    android:textColor="#66b3ff"
+                    android:textColorHint="#232f34"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="283dp" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="340dp"
+                    android:background="@drawable/color_textbox"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="電話"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#66b3ff"
+                    android:textColorHint="#232f34"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="402dp" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:gravity="center"
+                    android:text="ADD new resturant"
+                    android:textColor="#ffffff"
+                    android:textSize="48sp"
+                    tools:fontFamily="@font/nunito_bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="41dp"
+                    tools:layout_editor_absoluteY="1dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="570dp"
+                    android:background="@drawable/color"
+                    android:elevation="0dp"
+                    android:text="submit"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="94dp"
+                    tools:layout_editor_absoluteY="532dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="#344955">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            app:cardBackgroundColor="#344955">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/eatcircle" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                tools:text="test" />
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="55dp"
+                android:layout_span="6"
+                android:gravity="right"
+                android:text="TextView"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="19dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/moneyicon" />
+        </android.support.v7.widget.CardView>
+
+        <HorizontalScrollView
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttongreen"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/greenline" />
+
+                <Button
+                    android:id="@+id/buttonred"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redline" />
+
+                <Button
+                    android:id="@+id/buttonblue"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blueline" />
+
+                <Button
+                    android:id="@+id/buttonorange"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/orangeline" />
+
+                <Button
+                    android:id="@+id/buttonbrown"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/brownline" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/fragmentred"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_marginTop="90dp">
+
+    </FrameLayout>
+
+
+</FrameLayout>
