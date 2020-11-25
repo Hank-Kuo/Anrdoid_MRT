@@ -6,17 +6,17 @@ In this project, we not only provide a simple search function, but also add ente
 
 ## Overview 
 - Login page
-![](https://i.imgur.com/np7Tqh6.png)
+    - ![](https://i.imgur.com/np7Tqh6.png)
 - Index pag
-![](https://i.imgur.com/TNuTRos.png)
+    - ![](https://i.imgur.com/TNuTRos.png)
 - Create page 
-![](https://i.imgur.com/iHNBYmI.png)
+    - ![](https://i.imgur.com/iHNBYmI.png)
 - Resturant detail page
-![](https://i.imgur.com/42XytSd.png)
+    - ![](https://i.imgur.com/42XytSd.png)
 - Chatroom page
-![](https://i.imgur.com/pTTCDL6.png)
+    - ![](https://i.imgur.com/pTTCDL6.png)
 - Russian roulette page
-![](https://i.imgur.com/zwtKrYq.png)
+    - ![](https://i.imgur.com/zwtKrYq.png)
 
 ## Architecture
 - **Server**: Android studio (Java)
